@@ -28,6 +28,10 @@ namespace SkypeImage
         {
             pictureBox2.Image = Image.FromFile(openFileDialog1.FileName);          
             ToGrayScale();
+            button3.Enabled = true;
+            radioButton1.Enabled = true;
+            radioButton2.Enabled = true;
+            radioButton3.Enabled = true;
         }      
         private void ToGrayScale()
         {
